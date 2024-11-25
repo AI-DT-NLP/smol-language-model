@@ -27,3 +27,27 @@ This project aims to build a small language model (SLM) with up to 100M paramete
 - [conclusion]: 
  
 
+---
+
+##### directory structure
+
+
+```
+slm
+├── README.md
+├── datasets
+│   └── preprocessed
+├── get_dataset.py
+├── model
+│   ├── baseline.py
+│   ├── checkpoints
+│   └── model_explain.md
+├── preprocessing
+│   └── baseline.py
+├── run.py
+├── select framework.md
+├── simple roadmap.md
+├── slm training parameter with vram 16gb.md
+└── train
+    └── baseline.py
+```
