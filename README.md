@@ -15,14 +15,21 @@ This project aims to build a small language model (SLM) with up to 100M paramete
 
 ---
 
-### TODO
+##### TODO
 
 - [ ] pre-trained data와 fine-tuning data 선택
-    - 
+    - [Tiny Code](https://huggingface.co/datasets/nampdn-ai/tiny-codes)
+
+##### Record
+
+- [hypothesis]: How to develop smol language model? it can build on 16VRAM GPU?
+- [experiment]: Develop a baseline model based on GPT-1 that can train on 16GB VRAM. but dataset is specialized and high quality. 
+- [conclusion]: 
+ 
 
 ---
 
-### Roadmap **Implementation Steps / 구현 단계**
+### Simple Roadmap **Implementation Steps / 구현 단계**
 
 #### 1. **Base Model Development / 기본 모델 개발**
 - [ ] Transformer Decoder
@@ -43,7 +50,7 @@ This project aims to build a small language model (SLM) with up to 100M paramete
 
 2. **Specialized Data / 특화 데이터**:
    - Scientific: arXiv, Semantic Scholar (not selected)
-   - __Code: [Tiny Code](https://huggingface.co/datasets/nampdn-ai/tiny-codes) (selected)__  
+   - Code: [Tiny Code](https://huggingface.co/datasets/nampdn-ai/tiny-codes) 
 
 ##### **Preprocessing Techniques / 전처리 기술**
 1. **Data Filtering / 데이터 필터링**:
